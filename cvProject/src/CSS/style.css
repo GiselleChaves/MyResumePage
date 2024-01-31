@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&family=Julius+Sans+One&display=swap");
+
+/*@font-face {
+  font-family: "header";
+  src: url(...\src\fonts\JuliusSansOne-Regular.ttf);
+}*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  font-size: 15px;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  color: #11090a;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fcf9fa;
+  display: flex;
+  flex-direction: column;
+  margin: 1px 30px 0px 30px;
+}
+
+.header-informations {
+  height: 180px;
+  background-color: #af6670;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin: 2px auto;
+}
+
+.image {
+  height: 150px;
+  width: 115px;
+  border-radius: 900px;
+}
+
+.firstName {
+  width: 150px;
+  height: 40px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 50px;
+  color: #fff;
+  font-weight: lighter;
+  margin: 0px 0px 0px 0px;
+}
+
+.lastName {
+  width: 120px;
+  height: 30px;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 40px;
+  color: #fff;
+  font-weight: lighter;
+  margin: 0px 0px 0px 52px;
+}
+
+.navbar {
+  background-color: #d0c4a5;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 1px;
+}
+
+.navigation-links ul {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  text-decoration: underline 2px;
+  text-decoration-color: #bbb97e;
+}
+
+.navigation-links li:hover {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  text-decoration: underline 1px;
+  text-decoration-color: #af6670;
+}
+
+.project-body {
+  display: flex;
+  flex-direction: row;
+  height: 300px;
+}
+
+.tec-and-lang {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: #af6670 1px solid;
+  border-radius: 10px;
+  height: 350px;
+  width: 200px;
+  padding: 20px;
+  margin-top: 2px;
+}
+
+.technologies-header {
+  font-size: 18px;
+  padding: 4px;
+}
+
+.languages-header {
+  font-size: 18px;
+  padding: 4px;
+  margin: 3px;
+  margin-top: 5px;
+}
+
+.intermediary {
+  font-size: 13px;
+}
+
+.body-personalData {
+  display: flex;
+  flex-direction: row;
+  width: 800px;
+  padding: 20px;
+}
